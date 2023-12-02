@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/11e606bfb4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo3.png" class="logo">
+                <ul> 
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    
+                </ul>
+                
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Java Developer</p>
+                <h1>Hi,I'm<span> Milan Swain </span><br>From India</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user1.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As a full stack Java developer, I have a broad understanding of back-end and front-end development. My proficiency in Java enables me to build robust and scalable applications using various frameworks to build seamless user interfaces and efficient server-side components. With my adaptability, passion for clean code and relentless pursuit of excellence, I contribute to deliver high quality solutions in an ever-evolving digital landscape.</p>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')"> Technical Skills</p>
+                        <p class="tab-links"active-link" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br><p>&nbsp;&nbsp;&nbsp;&nbsp;1️⃣ Core Java<br>&nbsp;&nbsp;&nbsp;&nbsp;2️⃣ Advance Java</p></li>
+                            <li><span>Database</span><br>&nbsp;&nbsp;&nbsp;&nbsp;1️⃣ Oracle</li>
+                            <li><span>Web Design Technologies</span><br>&nbsp;&nbsp;&nbsp;&nbsp;1️⃣ HTML5<br>&nbsp;&nbsp;&nbsp;&nbsp;2️⃣ CSS3<br>&nbsp;&nbsp;&nbsp;&nbsp;3️⃣ Java Script</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019-2023</span><br>B.tech from Gandhi Institute for Technological Advancement (GITA), Bhubaneswar<br>CGPA-8.11</li>
+                            <li><span>2017-2019</span><br>12th from Sai H S H of Science, Jeypore<br>Percentage-48%</li>
+                            <li><span>2016-2017</span><br>10th from Vyomayana Samstha Vidyalaya, Koraput<br>CGPA-6.4</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+
+    </div>
+
+<!..........services.........>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Backend Developer</h2>
+                <p>Java backend developers build server-side components of applications using Java, ensuring scalability and robustness.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>App Design</h2>
+                <p>Java backend developers build server-side components of applications using Java, ensuring scalability and robustness.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>UI Design</h2>
+                <p>UI design focuses on crafting visually appealing and user-friendly interfaces for digital products and applications.</p>
+                <a href="#">Learn More</a>
+            </div>
+            
+            
+            
+        </div>
+    </div>
+</div>
+<!.......portfolio....>
+<div id="portfolio">
+    <div id="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+				<img src="images/emp.jpg">
+				<div class="layer">
+					<h3>Employee management system</h3>
+					<p> The Java-based Employee Management System is a software<br>for organizing employee data, attendance, payroll<br>and performance evaluation efficiently.</p>
+                    <a><i class="fa-solid fa-link"></i></a>
+				</div>
+			    
+			</div>
+			<div class="work">
+				<img src="images/bank.jpg">
+				<div class="layer">
+					<h3>Banking system</h3>
+					<p> The Java banking system code facilitates account management,<br>transactions, and security features for a secure<br>and reliable banking experience.</p>
+					 <a><i class="fa-solid fa-link"></i></a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="images/task.jpg">
+				<div class="layer">
+					<h3>Task Management System</h3>
+					<p> The Java task management system code efficiently organizes<br>tasks, assigns priorities, tracks progress, and<br>enhances team collaboration and productivity.</p>
+					<a><i class="fa-solid fa-link"></i></a>
+				</div>
+				
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+
+</div>
+<!.......contact.....>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>milanswain246@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>9861173006</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv1.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy Milan </p>
+
+    </div>
+</div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyErFZ0u_xW20DRygM043RFQV8WkllMWavgdsJ-6zMXWr5m4WRssqo6VMLRRI5lMIYY/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+           .then(response => {
+                msg.innerHTML = "Message sent sucessfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+           })
+            .catch(error => console.error('Error!', error.message))
+
+        })
+      </script>
+  
+</body>
+
+</html>
